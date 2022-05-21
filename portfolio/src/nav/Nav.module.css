@@ -1,0 +1,8 @@
+.nav {
+    /*//граница: всегда 2 значения - толщина и тип solid-сплошная    */
+    border: 1px solid red;
+    width: 300px;
+    display: flex;
+    justify-content: space-evenly;
+
+}

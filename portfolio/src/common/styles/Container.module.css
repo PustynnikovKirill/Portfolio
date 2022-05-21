@@ -1,0 +1,12 @@
+.container {
+    border: 0px solid;
+    height: 100%;
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    /*выравниваем по второстепенной оси */
+    align-items: center;
+    /*выравниваем по главной оси */
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
