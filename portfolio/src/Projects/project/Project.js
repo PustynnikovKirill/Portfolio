@@ -5,7 +5,7 @@ export const Project = (props) => {
     return (
         <div className={style.projectsBlock}>
             <div className={style.photo}>
-                <button>Смотреть</button>
+                <a href=''>Смотреть</a>
             </div>
             <h3>{props.title}</h3>
             <span>{props.description}</span>

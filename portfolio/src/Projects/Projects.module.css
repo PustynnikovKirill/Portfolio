@@ -1,5 +1,5 @@
 .projectsBlock{
-    height: 100vh;
+    min-height: 100vh;
     background-color: #2f9e9e;flex-wrap: wrap;
 
 }
