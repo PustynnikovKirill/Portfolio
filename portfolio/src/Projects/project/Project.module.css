@@ -1,0 +1,21 @@
+.projectsBlock{
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: #085050;
+}
+.photo{
+    background-color: #7c9191;
+    width: 250px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+;
+}
+.href{
+    display: flex;
+    flex-direction: column;
+}
