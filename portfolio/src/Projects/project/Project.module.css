@@ -33,11 +33,15 @@
 .href{
     display: flex;
     flex-direction: column;
-    position: relative;
 }
 .projectInfo{
     padding: 25px 20px;
 
+}
+.viewBtn {
+    position: relative;
+    z-index: 1;
+    color: #f0f3f0;
 }
 .projectTitle{
     font-family: 'Josefin Sans', sans-serif;

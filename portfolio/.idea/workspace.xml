@@ -3,11 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="24cc3bd3-18f9-4190-8695-20fbea3f7e92" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Projects/Projects.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Projects/Projects.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Projects/Projects.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Projects/Projects.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Projects/Projects.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Projects/Projects.module.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Projects/project/Project.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Projects/project/Project.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Projects/project/Project.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Projects/project/Project.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +51,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1658994259792</updated>
-      <workItem from="1658994261935" duration="22297000" />
+      <workItem from="1658994261935" duration="27036000" />
     </task>
     <servers />
   </component>
