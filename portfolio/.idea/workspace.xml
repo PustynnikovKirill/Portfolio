@@ -1,27 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9b6bccdf-2ee5-49c6-9497-48ed5c4cd71b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/common/styles/sass/variables.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+    <list default="true" id="53635322-37c3-4b8a-b9c7-980bcf919469" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/common/styles/sass/mixins.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Projects/Projects.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Projects/Projects.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Projects/project/Project.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Projects/project/Project.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Projects/project/Project.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Projects/project/Project.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/common/components/title/Title.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/components/title/Title.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/common/components/title/Title.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/components/title/Title.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Projects/project/Project.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Projects/project/Project.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common/components/title/Title.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/components/title/Title.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common/styles/sass/variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/styles/sass/variables.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="SCSS File" />
-      </list>
-    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -29,7 +21,7 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="2D4TCDCdTOzMqtKokjyMvX2Gxaj" />
+  <component name="ProjectId" id="2DyQyv7kLZV3HBwsqykhoJlqnJK" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -39,7 +31,6 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="yarn" />
@@ -49,12 +40,12 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="9b6bccdf-2ee5-49c6-9497-48ed5c4cd71b" name="Changes" comment="" />
-      <created>1659957226436</created>
+      <changelist id="53635322-37c3-4b8a-b9c7-980bcf919469" name="Changes" comment="" />
+      <created>1661669103736</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1659957226436</updated>
-      <workItem from="1659957229053" duration="5798000" />
+      <updated>1661669103736</updated>
+      <workItem from="1661669105569" duration="12627000" />
     </task>
     <servers />
   </component>

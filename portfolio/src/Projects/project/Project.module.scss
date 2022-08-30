@@ -1,10 +1,14 @@
+//импортируем переменные
+@import '../../common/styles/sass/variables';
+@import '../../common/styles/sass/mixins';
+
 .projectsBlock{
     width: 320px;
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
-    background-color:#252527;
+    background-color:$bgSecondColor;
     .photo{
         background-color: #7c9191;
         width: 100%;
@@ -26,11 +30,12 @@
             right: 0;
             opacity: 0.4;
         }
-
         .viewBtn {
+            background-color: $primaryColor;
             position: relative;
+            padding: 10px 20px;
             z-index: 1;
-            color: #f0f3f0;
+            color: $textColor;
         }
         .href{
             display: flex;
@@ -42,20 +47,21 @@
         padding: 25px 20px;
 
         .projectTitle{
-            font-family: 'Josefin Sans', sans-serif;
-            font-size: 16px;
+            //font-family: 'Josefin Sans', sans-serif;
+            //font-size: 16px;
+            //line-height: 1.2;
+            //color:$textColor;
+
+//так создаём миксин, и по очереди прокидываем параметры
+            @include text($titleFontFamily,16px,1.2);
+
             letter-spacing: 1px;
             margin: 0 0 5px;
-            line-height: 1.2;
-            color: #fff
 
         }
         .description{
-            font-family: 'Poppins', sans-serif;
-            line-height: 1.8;
+            @include text($textFontFamily,12px,1.8);
             font-weight: 400;
-            font-size: 12px;
-            color: #fff;
         }
 
     }

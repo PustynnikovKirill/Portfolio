@@ -1,0 +1,14 @@
+//так как есть переменная то импортируем ее
+@import './variables';
+
+//придумываем название миксину :"текст" и вкладываем
+//общие свойства из scss=, то что точно используется
+// и в ф-ю вписываем параметры
+
+@mixin text ($fontFamily,$fontSize,$lineHeight) {
+  font-family: $fontFamily;
+  font-size:$fontSize;
+  line-height: $lineHeight;
+  color:$textColor;
+
+}
