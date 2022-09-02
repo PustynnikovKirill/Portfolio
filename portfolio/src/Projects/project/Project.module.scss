@@ -9,6 +9,10 @@
     align-items: center;
     text-align: center;
     background-color:$bgSecondColor;
+    @media screen and (max-width: 800px) {
+        //пока наша макс.ширина не будет 800 то применяем стиль ниже "центр", потом обычные стили
+        margin-top: 10px;
+    }
     .photo{
         background-color: #7c9191;
         width: 100%;
@@ -23,7 +27,7 @@
         &::before {
             position: absolute;
             content: '';
-            background-color: black;
+            background-color: $bgBlack;
             top: 0;
             bottom: 0;
             left: 0;
@@ -31,7 +35,6 @@
             opacity: 0.4;
         }
         .viewBtn {
-            background-color: $primaryColor;
             position: relative;
             padding: 10px 20px;
             z-index: 1;

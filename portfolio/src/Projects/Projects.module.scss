@@ -1,7 +1,8 @@
+@import '../common/styles/sass/variables.scss';
 .projectsBlock {
-  background-color: #1f1f20;
+  background-color: $bgColor;
   flex-wrap: wrap;
-  padding: 100px 0;
+  //padding: 100px 0;
 
   .projectsContainer {
     border: 0px solid;
@@ -22,7 +23,7 @@
       flex-wrap: wrap;
       margin-top: 30px;
       align-items: flex-start;
-      @media screen and (max-width: 624px) {
+      @media screen and (max-width: 800px) {
         //пока наша макс.ширина не будет 624 то применяем стиль ниже "центр", потом обычные стили
         justify-content: center;
       }

@@ -1,6 +1,6 @@
 .skill{
     width: 250px;
-    background-color: darkgoldenrod;
+    background-color: #1f1f20;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -11,8 +11,28 @@
 .icon{
     height: 60px;
     width: 60px;
-    background-color: brown;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+.title{
+    text-transform: uppercase;
+    margin: 10px 0 15px;
+    padding: 0;
+    font-size: 16px;
+    font-family: 'Josefin Sans', sans-serif;
+    color: #fff;
+    letter-spacing: 1px;
+
 }
 .description{
+    font: 400 12px/1.8 'Poppins', sans-serif;
+    color: #fff;
 
+}
+@media screen and (max-width:936px) {
+    .skill {
+        margin-top: 10px;
+    }
 }

@@ -25,3 +25,9 @@
     width: 100px;
     height: 30px;
 }
+
+@media screen and (max-width:301px) {
+    .contacts{
+        width: 100%;
+    }
+}
