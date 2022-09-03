@@ -1,17 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3df5e723-48d6-46ac-a29f-cfa81139f78d" name="Changes" comment="">
+    <list default="true" id="cff77192-3245-445d-a8ef-aa6f7a62a277" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Projects/Projects.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Projects/Projects.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Projects/project/Project.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Projects/project/Project.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/common/components/title/Title.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/components/title/Title.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/common/styles/sass/variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/styles/sass/variables.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/contacts/Contacts.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/contacts/Contacts.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/skills/Skills.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/skills/Skills.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/skills/Skills.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/skills/Skills.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/skills/Skills.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/skills/Skills.module.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/skills/skill/Skill.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/skills/skill/Skill.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/skills/skill/Skill.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/skills/skill/Skill.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/skills/skill/Skill.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/skills/skill/Skill.module.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,7 +20,7 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="2EB7wscV8oW0B7AsUTneqwcQpLs" />
+  <component name="ProjectId" id="2EGouhFJ0KYfNAZaRKvuHTQfpWp" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -43,16 +39,27 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="3df5e723-48d6-46ac-a29f-cfa81139f78d" name="Changes" comment="" />
-      <created>1662057364370</created>
+      <changelist id="cff77192-3245-445d-a8ef-aa6f7a62a277" name="Changes" comment="" />
+      <created>1662231505894</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1662057364370</updated>
-      <workItem from="1662057366422" duration="12357000" />
+      <updated>1662231505894</updated>
+      <workItem from="1662231507799" duration="2641000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

@@ -1,22 +1,26 @@
-.skill{
-    width: 250px;
-    background-color: #1f1f20;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    box-sizing: border-box;
-    padding: 20px;
-}
-.icon{
+.skill {
+  width: 250px;
+  background-color: #1f1f20;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  box-sizing: border-box;
+  padding: 20px;
+  @media screen and (max-width: 936px) {
+    margin-top: 10px;
+  }
+
+  .icon {
     height: 60px;
     width: 60px;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 
-}
-.title{
+  }
+
+  .title {
     text-transform: uppercase;
     margin: 10px 0 15px;
     padding: 0;
@@ -25,14 +29,14 @@
     color: #fff;
     letter-spacing: 1px;
 
-}
-.description{
+  }
+
+  .description {
     font: 400 12px/1.8 'Poppins', sans-serif;
     color: #fff;
 
+  }
 }
-@media screen and (max-width:936px) {
-    .skill {
-        margin-top: 10px;
-    }
-}
+
+
+
