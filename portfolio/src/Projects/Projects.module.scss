@@ -23,6 +23,7 @@
       flex-wrap: wrap;
       margin-top: 30px;
       align-items: flex-start;
+      margin-block-end: 30px;
       @media screen and (max-width: 800px) {
         //пока наша макс.ширина не будет 624 то применяем стиль ниже "центр", потом обычные стили
         justify-content: center;

@@ -38,7 +38,7 @@
             position: relative;
             padding: 10px 20px;
             z-index: 1;
-            color: $textColor;
+            color: $textColorPicture;
         }
         .href{
             display: flex;
@@ -60,11 +60,13 @@
 
             letter-spacing: 1px;
             margin: 0 0 5px;
+            color:$textColorTitle;
 
         }
         .description{
             @include text($textFontFamily,12px,1.8);
             font-weight: 400;
+            color:$textColorText;
         }
 
     }

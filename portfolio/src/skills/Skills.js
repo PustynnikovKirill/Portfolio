@@ -23,9 +23,9 @@ function Skills() {
             <div className = {`${styleContainer.container} ${style.skillsContainer}`} >
                 <Title text = {"Skills"} />
                 <div className={style.skills}>
-                    <Skill style = {JS} title = {'JS'} description={'fsgbvdfgfbvfgbfgbsfb sfgbsfgbsfrbfrgb sfgbrwtbgrwgb'}/>
-                    <Skill style = {CSS} title = {'CSS'} description={'fsgbvdfgfbvfgbfgbsfb sfgbsfgbsfrbfrgb sfgbrwtbgrwgb'}/>
-                    <Skill style = {REACT} title = {'REACT'} description={'fsgbvdfgfbvfgbfgbsfb sfgbsfgbsfrbfrgb sfgbrwtbgrwgb'}/>
+                    <Skill fas = {'js'}  title = {'JS'} description={'fsgbvdfgfbvfgbfgbsfb sfgbsfgbsfrbfrgb sfgbrwtbgrwgb'}/>
+                    <Skill  fas = {'css'} title = {'CSS'} description={'fsgbvdfgfbvfgbfgbsfb sfgbsfgbsfrbfrgb sfgbrwtbgrwgb'}/>
+                    <Skill  fas = {'react'}  title = {'REACT'} description={'fsgbvdfgfbvfgbfgbsfb sfgbsfgbsfrbfrgb sfgbrwtbgrwgb'}/>
                 </div>
             </div>
         </div>

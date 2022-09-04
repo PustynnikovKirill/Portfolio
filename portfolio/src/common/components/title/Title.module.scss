@@ -5,15 +5,16 @@
   font-family: 'Josefin Sans', sans-serif;
   color:$textColor;
   text-transform: capitalize;
-  font-size: 36px;
+  font-size: 20px;
   line-height: 1.2;
   letter-spacing: 5px;
   position: relative;
 
+
   &::before {
     content: "";
     position: absolute;
-    background: #4e93e6;
+    background: $textColorPicture;
     width: 55px;
     height: 1px;
     bottom: 10px;
@@ -24,6 +25,7 @@
   .title h2 {
     margin: 0;
     font-weight: 300;
+
   }
 }
 

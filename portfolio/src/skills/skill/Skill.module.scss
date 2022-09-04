@@ -1,3 +1,4 @@
+@import '../../common/styles/sass/variables';
 .skill {
   width: 250px;
   background-color: #1f1f20;
@@ -17,6 +18,31 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    margin: 0px auto 30px;
+    //background: rgba(255,255,255,0.1);
+    display: block;
+    line-height: 80px;
+    font-size: 30px;
+    //box-shadow: -6px 10px 40px rgb(0 0 0 / 6%);
+    text-align: center;
+    transform: rotate(45deg);
+    background-color:$bgSecondColor;
+    .fas {
+        transform: rotate(-45deg);
+        font-family: 'Font Awesome 5 Free';
+        font-weight: 900;
+        -webkit-font-smoothing: antialiased;
+        display: inline-block;
+        font-style: normal;
+        font-variant: normal;
+        text-rendering: auto;
+        text-align: center;
+      line-height: 80px;
+      font-size: 30px;
+      color:$textColorPicture
+
+
+    }
 
   }
 
@@ -26,14 +52,14 @@
     padding: 0;
     font-size: 16px;
     font-family: 'Josefin Sans', sans-serif;
-    color: #fff;
+    color: $textColorTitle;
     letter-spacing: 1px;
 
   }
 
   .description {
     font: 400 12px/1.8 'Poppins', sans-serif;
-    color: #fff;
+    color: $textColorText;
 
   }
 }

@@ -1,6 +1,7 @@
+@import '../common/styles/sass/variables';
 .contactsBlock {
     min-height:50vh;
-    background-color: darkgoldenrod;
+    background-color:$bgSecondColor;
 }
 .contactsContainer{
     display: flex;
