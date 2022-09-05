@@ -1,17 +1,80 @@
 @import "../common/styles/sass/variables";
 
-.mainBlock{
-    min-height: 100vh;
-    background-color:$bgColor;
+.mainBlock {
+  min-height: 100vh;
+  background-color: $bgColor;
+
+  .media {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 100%;
+    @media screen and (max-width: 1077px) {
+      justify-content: center;
+      margin-bottom: 20px;
+
+    }
+    .text {
+      width: 550px;
+      //background-color: #444242;
+
+      .title {
+        color: $textColorTitle;
+        box-sizing: border-box;
+        font: 400 16px/1.8 'Poppins', sans-serif;
+        text-align: left;
+      }
+
+      .name {
+        color: $textColor;
+        padding: 10px 0 10px;
+        font: 700 40px/1.2 'Josefin Sans', sans-serif;
+        letter-spacing: 5px;
+        margin: 0;
+
+        .myName {
+          position: relative;
+          display: inline-block;
+          box-sizing: border-box;
+          z-index: 1;
+
+          &::before {
+            content: "";
+            position: absolute;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            height: 20px;
+            width: 100%;
+            z-index: -1;
+            background: $textColorPicture;
+          }
+        }
+      }
+
+      .description {
+        color: $textColorText;
+        box-sizing: border-box;
+        font: 400 20px/1.8 'Poppins', sans-serif;
+        text-align: left;
+      }
+    }
+
+    .photo {
+      width: 300px;
+      height: 400px;
+      background-color: $bgSecondColor;
+      margin-top: 70px;
+    }
+  }
 }
 
-.text{
-    width: 300px;
-    background-color: #444242;
 
-}
-.photo {
-    width: 300px;
-    height: 400px;
-    background-color: $bgSecondColor;
-}
+
+
+
+
+
+
+

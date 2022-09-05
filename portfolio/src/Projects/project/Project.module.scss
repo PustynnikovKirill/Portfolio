@@ -9,7 +9,7 @@
     align-items: center;
     text-align: center;
     background-color:$bgSecondColor;
-    @media screen and (max-width: 800px) {
+    @media screen and (max-width: 816px) {
         //пока наша макс.ширина не будет 800 то применяем стиль ниже "центр", потом обычные стили
         margin-top: 10px;
     }
