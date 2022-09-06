@@ -14,6 +14,7 @@
       display: flex;
       justify-content: space-between;
       flex-wrap: wrap;
+      margin-top: 30px;
       @media screen and (max-width: 640px) {
         justify-content: center;
         margin-block-end: 20px;

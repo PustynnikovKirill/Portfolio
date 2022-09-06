@@ -1,34 +1,94 @@
 @import '../common/styles/sass/variables';
 .contactsBlock {
-    min-height:50vh;
+    min-height:60vh;
     background-color:$bgSecondColor;
-}
-.contactsContainer{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    height: 300px;
-    justify-content: space-evenly;
-}
-.title{
-    background-color: #444242;
-}
-.contacts{
-    border: 1px solid;
-    width: 300px;
-    height: 100px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    flex-wrap: wrap;
-}
-.button {
-    width: 100px;
-    height: 30px;
-}
+    .contactsContainer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 400px;
+        justify-content: space-evenly;
+        .contacts{
 
-@media screen and (max-width:301px) {
-    .contacts{
-        width: 100%;
+            width: 500px;
+            height: 180px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            @media screen and (max-width:500px) {
+                width: 100%;
+            }
+
+            .inputName {
+                font: 400 14px/1.8 'Poppins', sans-serif;
+                color: #495057;;
+                overflow-x: hidden;
+                background: $bgColor !important;
+                border: 1px solid #4a4a4a;
+                font-size: 12px;
+                padding: 0 15px;
+                border-radius: 0;
+                box-shadow: none;
+                display: block;
+
+            }
+            .inputEMail{
+                font: 400 14px/1.8 'Poppins', sans-serif;
+                color: #495057;
+                overflow-x: hidden;
+                background: $bgColor !important;
+                border: 1px solid #4a4a4a;
+                font-size: 12px;
+                padding: 0 15px;
+                border-radius: 0;
+                box-shadow: none;
+                display: block;
+
+            }
+            .textarea {
+                font: 400 14px/1.8 'Poppins', sans-serif;
+                padding: 0 15px;
+                color: #495057;
+                height: auto;
+                background: $bgColor !important;
+                border: 1px solid #4a4a4a;
+                font-size: 12px;
+                border-radius: 0;
+                box-shadow: none;
+                overflow: auto;
+                resize: vertical;
+                line-height: 1.5;
+                height: 110px;
+            }
+        }
+
+        .button {
+            visibility: visible;
+            animation-delay: 0.3s;
+            animation-name: fadeInUp;
+            display: block;
+            font: 400 14px/1.2 'Poppins', sans-serif;
+            text-transform: uppercase;
+            text-decoration: none;
+            letter-spacing: 1px;
+            padding: 7px 20px;
+            transition: all 0.4s ease-in-out 0s;
+            //background: transparent;
+            color: $textColor;
+            max-width: 170px;
+            margin: 15px auto;
+            z-index: 22;
+            text-align: center;
+            border-radius: 0px;
+            width: 100%;
+            border: none;
+            position: relative;
+            box-shadow: none;
+            background-color:$bgColor;
+        }
+
     }
 }
+
+
