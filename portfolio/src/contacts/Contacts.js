@@ -8,7 +8,6 @@ export const Contacts = () => {
         <div className={style.contactsBlock}>
             <div className={style.contactsContainer}>
                 <Title text = {"Contacts"} />
-                {/*<h2 className={style.title}>Contacts</h2>*/}
                 <form className={style.contacts}>
                     <input type="text" placeholder= "Name" className={style.inputName}/>
                     <input type="text" placeholder= "E-mail" className={style.inputEMail}/>

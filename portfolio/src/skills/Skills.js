@@ -7,6 +7,9 @@ import socialImage from "../assets/image/social-network.jpg";
 import imageJS from "../assets/image/JS.png";
 import imageCSS from "../assets/image/CSS.png";
 import imageREACT from "../assets/image/REACT.png";
+import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
+import {faCss3Alt, faJava, faReact} from '@fortawesome/free-brands-svg-icons';
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 
 function Skills() {
     const JS = {
@@ -23,9 +26,9 @@ function Skills() {
             <div className = {`${styleContainer.container} ${style.skillsContainer}`} >
                 <Title text = {"Skills"} />
                 <div className={style.skills}>
-                    <Skill fas = {'js'}  title = {'JS'} description={'fsgbvdfgfbvfgbfgbsfb sfgbsfgbsfrbfrgb sfgbrwtbgrwgb'}/>
-                    <Skill  fas = {'css'} title = {'CSS'} description={'fsgbvdfgfbvfgbfgbsfb sfgbsfgbsfrbfrgb sfgbrwtbgrwgb'}/>
-                    <Skill  fas = {'react'}  title = {'REACT'} description={'fsgbvdfgfbvfgbfgbsfb sfgbsfgbsfrbfrgb sfgbrwtbgrwgb'}/>
+                    <Skill fas = {<FontAwesomeIcon icon={faJava}/>}   title = {'JS'} description={'fsgbvdfgfbvfgbfgbsfb sfgbsfgbsfrbfrgb sfgbrwtbgrwgb'}/>
+                    <Skill  fas = {<FontAwesomeIcon icon={faCss3Alt}/>}  title = {'CSS'} description={'fsgbvdfgfbvfgbfgbsfb sfgbsfgbsfrbfrgb sfgbrwtbgrwgb'}/>
+                    <Skill  fas = {<FontAwesomeIcon icon={faReact}/>}  title = {'REACT'} description={'fsgbvdfgfbvfgbfgbsfb sfgbsfgbsfrbfrgb sfgbrwtbgrwgb'}/>
                 </div>
             </div>
         </div>

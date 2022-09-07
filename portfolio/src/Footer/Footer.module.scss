@@ -1,0 +1,49 @@
+@import '../common/styles/sass/variables';
+
+.footerBlock {
+  background-color: $bgColor;
+  min-height: 20vh;
+
+  .footerContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .title {
+      font: 700 40px/1.2 'Josefin Sans', sans-serif;
+      letter-spacing: 2px;
+      color: #fff;
+      font-size: 22px;
+      font-weight: 700;
+      margin-bottom: 20px;
+      display: block;
+    }
+
+    .footer {
+      display: flex;
+      justify-content: space-between;
+      width: 210px;
+      flex-wrap: wrap;
+
+      .f {
+        background-color: #696060;
+        height: 30px;
+        width: 30px;
+      }
+    }
+    .span {
+      margin: 15px;
+      font: 400 14px/1.8 $textFontFamily;
+      color: rgba(255, 255, 255, .5);
+    }
+  }
+
+}
+
+
+
+
+
+
+
+
