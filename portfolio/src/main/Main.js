@@ -1,12 +1,27 @@
 import React from 'react';
 import style from './Main.module.scss';
-import styleContainer from './../common/styles/Container.module.scss'
+import styleContainer from './../common/styles/Container.module.scss';
+import Particles from 'react-particles-js'
+
+
+const particlesOptions = {
+    particles:{
+        number:{
+            value: 80,
+            density:{
+                enable:true,
+                value_area:800
+            }
+        }
+    }
+};
 
 function Main() {
     const name = "Kirill Pustynnikov"
 
     return (
         <div className={style.mainBlock}>
+            <Particles/>
             <div className={styleContainer.container}>
                 <div className={style.media}>
                 <div className={style.text}>
@@ -15,7 +30,10 @@ function Main() {
                     </h1>
                     <p className={style.description}>Frontend Developer</p>
                 </div>
-                <div className={style.photo}></div>
+                <div className={style.photo}>
+                    <div className={style.image}>
+                    </div>
+                </div>
                 </div>
             </div>
         </div>

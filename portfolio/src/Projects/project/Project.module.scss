@@ -38,7 +38,12 @@
             position: relative;
             padding: 10px 20px;
             z-index: 1;
-            color: $textColorPicture;
+            background-color: $textColorPicture;
+            color: white;
+            text-decoration: none;
+            border-radius: 6px;
+            font-size: 14px;
+            text-transform: uppercase;
         }
         .href{
             display: flex;

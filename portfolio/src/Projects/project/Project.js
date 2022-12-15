@@ -11,7 +11,6 @@ export const Project = (props) => {
                 <h3 className={style.projectTitle}>{props.title}</h3>
                 <span className={style.description}>{props.description}</span>
             </div>
-
         </div>
     );
 }

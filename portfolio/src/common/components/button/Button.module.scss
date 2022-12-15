@@ -1,0 +1,63 @@
+.btn {
+  visibility: visible;
+  animation-delay: 0.3s;
+  animation-name: Contacts_fadeInUp__t\+bZB;
+  display: block;
+  font: 400 14px/1.2 'Poppins', sans-serif;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 1px;
+  padding: 7px 20px;
+  transition: all 0.4s ease-in-out 0s;
+  color: #fff;
+  max-width: 170px;
+  margin: 15px auto;
+  z-index: 0;
+  text-align: center;
+  border-radius: 0px;
+  width: 100%;
+  border: none;
+  position: relative;
+  box-shadow: none;
+  background-color: #1f1f20;
+  &::after {
+    content:'';
+    position:absolute;
+    left: 0;
+    right: 0;
+    width: 50%;
+    height: 10px;
+    background:$textColorPicture;
+    bottom: 0;
+    z-index: -1;
+    transition: all 0.2s ease-in-out;
+    margin: 0 auto;
+  }
+  &:hover{
+    text-decoration: none;
+    color:$textColor;
+    &::after {
+      width: 100%;
+      height: 110%;
+      transition: all 0.3s ease-in-out 0s;
+    }
+  }
+
+  //display: block;
+  //font: 400 14px/1.2 'Poppins', sans-serif;
+  //text-transform: uppercase;
+  //text-decoration: none;
+  //letter-spacing: 1px;
+  //padding: 7px 20px;
+  //transition: all 0.4s ease-in-out 0s;
+  //background: transparent;
+  //color: #fff;
+  //max-width: 170px;
+  //margin: 15px auto;
+  //z-index: 22;
+  //text-align: center;
+  //border-radius: 0px;
+  //width: 100%;
+  //border: none;
+  //position: relative;
+}

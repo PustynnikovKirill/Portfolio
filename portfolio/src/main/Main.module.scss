@@ -15,6 +15,7 @@
       margin-bottom: 20px;
 
     }
+
     .text {
       width: 550px;
       //background-color: #444242;
@@ -62,10 +63,34 @@
     }
 
     .photo {
-      width: 300px;
-      height: 400px;
-      background-color: $bgSecondColor;
-      margin-top: 70px;
+      position: relative;
+      //background-color: $bgSecondColor;
+      margin-top: 50px;
+      z-index: 1;
+
+      .image {
+        display: inline-block;
+        box-sizing: border-box;
+        z-index: 1;
+        width: 300px;
+        height: 400px;
+        background-image: url("../assets/image/ava.jpg");
+        background-size: cover;
+        background-position: 80% 0;
+
+        &::before {
+          content: '';
+          position: absolute;
+          height: 110%;
+          width: 105%;
+          border: 5px solid $textColorPicture;
+          left: 15px;
+          top: -35px;
+          z-index: -1;
+        }
+      }
+
+
     }
   }
 }
