@@ -8,5 +8,12 @@
     .list {
         color:$textColorPicture;
         font-family:$textFontFamily;
+        &:hover {
+            text-decoration: none;
+            color: white;
+        }
+    }
+    .active{
+        color: white;
     }
 }

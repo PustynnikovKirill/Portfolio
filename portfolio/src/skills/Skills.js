@@ -9,7 +9,8 @@ import imageCSS from "../assets/image/CSS.png";
 import imageREACT from "../assets/image/REACT.png";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faCss3Alt, faJava, faReact} from '@fortawesome/free-brands-svg-icons';
-import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
+import Fade from 'react-reveal/Fade';
+import {faEnvelope} from '@fortawesome/free-solid-svg-icons';
 
 function Skills() {
     const JS = {
@@ -23,14 +24,19 @@ function Skills() {
     };
     return (
         <div className={style.skillsBlock}>
-            <div className = {`${styleContainer.container} ${style.skillsContainer}`} >
-                <Title text = {"Skills"} />
-                <div className={style.skills}>
-                    <Skill fas = {<FontAwesomeIcon icon={faJava}/>}   title = {'JS'} description={'fsgbvdfgfbvfgbfgbsfb sfgbsfgbsfrbfrgb sfgbrwtbgrwgb'}/>
-                    <Skill  fas = {<FontAwesomeIcon icon={faCss3Alt}/>}  title = {'CSS'} description={'fsgbvdfgfbvfgbfgbsfb sfgbsfgbsfrbfrgb sfgbrwtbgrwgb'}/>
-                    <Skill  fas = {<FontAwesomeIcon icon={faReact}/>}  title = {'REACT'} description={'fsgbvdfgfbvfgbfgbsfb sfgbsfgbsfrbfrgb sfgbrwtbgrwgb'}/>
+            <Fade bottom>
+                <div className={`${styleContainer.container} ${style.skillsContainer}`}>
+                    <Title text={"Skills"}/>
+                    <div className={style.skills}>
+                        <Skill fas={<FontAwesomeIcon icon={faJava}/>} title={'JS'}
+                               description={'fsgbvdfgfbvfgbfgbsfb sfgbsfgbsfrbfrgb sfgbrwtbgrwgb'}/>
+                        <Skill fas={<FontAwesomeIcon icon={faCss3Alt}/>} title={'CSS'}
+                               description={'fsgbvdfgfbvfgbfgbsfb sfgbsfgbsfrbfrgb sfgbrwtbgrwgb'}/>
+                        <Skill fas={<FontAwesomeIcon icon={faReact}/>} title={'REACT'}
+                               description={'fsgbvdfgfbvfgbfgbsfb sfgbsfgbsfrbfrgb sfgbrwtbgrwgb'}/>
+                    </div>
                 </div>
-            </div>
+            </Fade>
         </div>
     );
 }
