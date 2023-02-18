@@ -5,7 +5,7 @@ import Fade from 'react-reveal/Fade';
 
 export const Contacts = () => {
     return (
-        <div className={style.contactsBlock}>
+        <div id={"contacts"} className={style.contactsBlock}>
             <Fade left>
                 <div className={style.contactsContainer}>
                     <Title text={"Contacts"}/>

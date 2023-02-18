@@ -6,6 +6,8 @@
     justify-content: space-evenly;
 
     .list {
+        cursor: pointer;
+        text-decoration: underline;
         color:$textColorPicture;
         font-family:$textFontFamily;
         &:hover {

@@ -9,7 +9,7 @@ function Main() {
     const name = "Kirill Pustynnikov"
 
     return (
-        <div className={style.mainBlock}>
+        <div  id={"main"}  className={style.mainBlock}>
             <Fade top>
                 <div className={styleContainer.container}>
                     <div className={style.media}>
