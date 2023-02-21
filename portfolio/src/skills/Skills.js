@@ -8,9 +8,9 @@ import imageJS from "../assets/image/JS.png";
 import imageCSS from "../assets/image/CSS.png";
 import imageREACT from "../assets/image/REACT.png";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
-import {faCss3Alt, faJava, faReact} from '@fortawesome/free-brands-svg-icons';
+import {faCss3Alt, faGithub, faJava, faReact} from '@fortawesome/free-brands-svg-icons';
 import Fade from 'react-reveal/Fade';
-import {faEnvelope} from '@fortawesome/free-solid-svg-icons';
+import {faA, faEnvelope, faF, faH, faR} from '@fortawesome/free-solid-svg-icons';
 
 function Skills() {
     const JS = {
@@ -28,12 +28,22 @@ function Skills() {
                 <div className={`${styleContainer.container} ${style.skillsContainer}`}>
                     <Title text={"Skills"}/>
                     <div className={style.skills}>
-                        <Skill fas={<FontAwesomeIcon icon={faJava}/>} title={'JS'}
-                               description={'fsgbvdfgfbvfgbfgbsfb sfgbsfgbsfrbfrgb sfgbrwtbgrwgb'}/>
-                        <Skill fas={<FontAwesomeIcon icon={faCss3Alt}/>} title={'CSS'}
-                               description={'fsgbvdfgfbvfgbfgbsfb sfgbsfgbsfrbfrgb sfgbrwtbgrwgb'}/>
-                        <Skill fas={<FontAwesomeIcon icon={faReact}/>} title={'REACT'}
-                               description={'fsgbvdfgfbvfgbfgbsfb sfgbsfgbsfrbfrgb sfgbrwtbgrwgb'}/>
+                        <Skill fas={<FontAwesomeIcon icon={faJava}/>} title={'JS/TS'}
+                               description={'Confident instrument control.'}/>
+                        <Skill fas={<FontAwesomeIcon icon={faReact}/>} title={'React/Redux'}
+                               description={'Confident instrument control.'}/>
+                        <Skill fas={<FontAwesomeIcon icon={faCss3Alt}/>} title={'CSS/SCSS'}
+                               description={'Confident instrument control.'}/>
+                        <Skill fas={<FontAwesomeIcon icon={faH}/>} title={'HTML5'}
+                               description={'Confident instrument control.'}/>
+                        <Skill fas={<FontAwesomeIcon icon={faGithub}/>} title={'GitHub/Git'}
+                               description={'Confident instrument control.'}/>
+                        <Skill fas={<FontAwesomeIcon icon={faA}/>} title={'Axios'}
+                                description={'Confident instrument control.'}/>
+                        <Skill fas={<FontAwesomeIcon icon={faR}/>} title={'React Hooks'}
+                               description={'Confident instrument control.'}/>
+                        <Skill fas={<FontAwesomeIcon icon={faF}/>} title={'Formik'}
+                               description={'Confident instrument control.'}/>
                     </div>
                 </div>
             </Fade>

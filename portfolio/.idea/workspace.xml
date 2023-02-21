@@ -3,14 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="e9528a39-1e53-4162-979f-f40e9b589b2d" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Header/Header.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Header/Header.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/common/styles/sass/variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/styles/sass/variables.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/contacts/Contacts.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/contacts/Contacts.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/Main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/Main.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Main.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/nav/Nav.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/nav/Nav.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/nav/Nav.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/nav/Nav.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Footer/Footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Footer/Footer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Footer/Footer.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Footer/Footer.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Projects/Projects.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Projects/Projects.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Projects/project/Project.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Projects/project/Project.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/skills/Skills.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/skills/Skills.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/skills/skill/Skill.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/skills/skill/Skill.module.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +74,8 @@
       <option name="presentableId" value="Default" />
       <updated>1675886074648</updated>
       <workItem from="1675886076119" duration="21623000" />
-      <workItem from="1676464828825" duration="9328000" />
+      <workItem from="1676464828825" duration="11173000" />
+      <workItem from="1676829426802" duration="10506000" />
     </task>
     <servers />
   </component>
