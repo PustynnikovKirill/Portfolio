@@ -29,19 +29,19 @@ function Skills() {
                     <Title text={"Skills"}/>
                     <div className={style.skills}>
                         <Skill fas={<FontAwesomeIcon icon={faJava}/>} title={'JS/TS'}
-                               description={'Confident instrument control.'}/>
+                               description={'Using the latest language features. Using typescript on projects to minimize errors.'}/>
                         <Skill fas={<FontAwesomeIcon icon={faReact}/>} title={'React/Redux'}
-                               description={'Confident instrument control.'}/>
+                               description={'Using React Functional Components and Hooks to create a SPA. Using Redux to manage the state of applications.'}/>
                         <Skill fas={<FontAwesomeIcon icon={faCss3Alt}/>} title={'CSS/SCSS'}
-                               description={'Confident instrument control.'}/>
+                               description={'Using CSS3 in projects, including the SAS preprocessor.'}/>
                         <Skill fas={<FontAwesomeIcon icon={faH}/>} title={'HTML5'}
-                               description={'Confident instrument control.'}/>
+                               description={'Using semantic tags, Flexbox and Grid in HTML coding.'}/>
                         <Skill fas={<FontAwesomeIcon icon={faGithub}/>} title={'GitHub/Git'}
-                               description={'Confident instrument control.'}/>
+                               description={'Using Git to track and maintain the history of file changes in projects.'}/>
                         <Skill fas={<FontAwesomeIcon icon={faA}/>} title={'Axios'}
-                                description={'Confident instrument control.'}/>
+                                description={'Using promise-based Axios, which allows you to take advantage of JavaScript async and await more readable asynchronous code.'}/>
                         <Skill fas={<FontAwesomeIcon icon={faR}/>} title={'React Hooks'}
-                               description={'Confident instrument control.'}/>
+                               description={'Using Hooks allow function components to have access to state and other React features.'}/>
                         <Skill fas={<FontAwesomeIcon icon={faF}/>} title={'Formik'}
                                description={'Confident instrument control.'}/>
                     </div>
