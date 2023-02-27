@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="59e9fa08-f248-41d7-ae38-295233698cbe" name="Changes" comment="">
+    <list default="true" id="0c39425c-0ff1-4187-bdc5-c7cab95321da" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../gmail-nodejs/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/skills/Skills.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/skills/Skills.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/skills/Skills.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/skills/Skills.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/skills/skill/Skill.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/skills/skill/Skill.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/contacts/Contacts.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/contacts/Contacts.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/contacts/Contacts.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/contacts/Contacts.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,7 +20,7 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="2M5XTXovOLI6orjDnc9OUi0PC4a" />
+  <component name="ProjectId" id="2MHIRsdGcONTs3WZSE87II1Rfof" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -34,32 +36,15 @@
     <property name="ts.external.directory.path" value="E:\Portfolio\portfolio\node_modules\typescript\lib" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager">
-    <configuration name="deploy" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
-      <package-json value="$PROJECT_DIR$/package.json" />
-      <command value="run" />
-      <scripts>
-        <script value="deploy" />
-      </scripts>
-      <node-interpreter value="project" />
-      <envs />
-      <method v="2" />
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="npm.deploy" />
-      </list>
-    </recent_temporary>
-  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="59e9fa08-f248-41d7-ae38-295233698cbe" name="Changes" comment="" />
-      <created>1677058426611</created>
+      <changelist id="0c39425c-0ff1-4187-bdc5-c7cab95321da" name="Changes" comment="" />
+      <created>1677418076221</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1677058426611</updated>
-      <workItem from="1677058429604" duration="3696000" />
+      <updated>1677418076221</updated>
+      <workItem from="1677418078566" duration="17310000" />
     </task>
     <servers />
   </component>
