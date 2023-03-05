@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0c39425c-0ff1-4187-bdc5-c7cab95321da" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../gmail-nodejs/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gmail-nodejs/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../gmail-nodejs/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/contacts/Contacts.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/contacts/Contacts.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/contacts/Contacts.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/contacts/Contacts.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +34,23 @@
     <property name="ts.external.directory.path" value="E:\Portfolio\portfolio\node_modules\typescript\lib" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
+  <component name="RunManager">
+    <configuration name="deploy" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="deploy" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.deploy" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -44,11 +59,22 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1677418076221</updated>
-      <workItem from="1677418078566" duration="17310000" />
+      <workItem from="1677418078566" duration="45862000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
