@@ -29,36 +29,40 @@ export const Contacts = () => {
     //
     // }
 
+    const changeTextEmail = (e) => {
+        setInputValueEmail(e.currentTarget.value)
+        setError('')
+    }
+
     const setInputValueEmailHandler = () => {
         if (!inputValueEmail) {
             setError('Required')
             setDisabled(true)
+            return false
         }
-        if (!/^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}$/i.test(inputValueEmail)) {
+        if (!/^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$/.test(inputValueEmail)) {
             setError('Invalid email address')
-            setDisabled(true)
-        } else {
-            setError('')
-            setDisabled(false)
+            // setDisabled(true)
+            return false
         }
-
+        return true
     }
 
 
     const form = useRef();
     const sendEmail = (e) => {
         e.preventDefault()
-        setInputValueEmailHandler()
-        setInputValueName('')
-        setInputValueEmail('')
-        setInputValueMessage('')
-        emailjs.sendForm('service_kwu9dgq', 'template_24uscl8', form.current, 'N2C43bON1G2ppDGXc')
-            .then((result) => {
-                console.log(result)
-            }, (error) => {
-                console.log(error)
-            })
-
+       if(setInputValueEmailHandler()){
+           setInputValueName('')
+           setInputValueEmail('')
+           setInputValueMessage('')
+           emailjs.sendForm('service_kwu9dgq', 'template_24uscl8', form.current, 'N2C43bON1G2ppDGXc')
+               .then((result) => {
+                   console.log(result)
+               }, (error) => {
+                   console.log(error)
+               })
+       }
     }
 
     return (
@@ -74,7 +78,7 @@ export const Contacts = () => {
                                className={style.inputName}
                                name='name'
                                value={inputValueName}
-                               onChange={(e) => setInputValueName(e.currentTarget.value)}
+                               onChange={(e)=>setInputValueName(e.currentTarget.value)}
                         />
                         <input
                             type="text"
@@ -82,8 +86,8 @@ export const Contacts = () => {
                             className={style.inputEMail}
                             name='email'
                             value={inputValueEmail}
-                            onChange={(e)=>setInputValueEmail(e.currentTarget.value)}
-                            style={errors === 'Required' ||'Invalid email address' ? {color: 'red'} : null}
+                            onChange={changeTextEmail}
+                            style={errors === 'Required' || errors === 'Invalid email address' ? {color: 'red'} : null}
 
                         />
 
